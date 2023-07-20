@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Fake Blog</title>
+  </head>
+  <body>
+    <div class="introduccion">
+      <h1>Ignacio Durán</h1>
+      <img src="img/Yo.jpg" alt="Foto Ignacio Durán" style="width: 250px" />
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias ullam
+        culpa repudiandae facilis corrupti, exercitationem sapiente consectetur
+        ducimus praesentium explicabo ratione pariatur? Dignissimos expedita
+        pariatur magnam. Doloribus ea perferendis natus.
+      </p>
+    </div>
+    <div class="tabla">
+      <table border="1px">
+        <thead>
+          <tr>
+            <th>Año</th>
+            <th>Album Favorito</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>2023</td>
+            <td>DATA/Tainy</td>
+          </tr>
+          <tr>
+            <td>2022</td>
+            <td>Microdosis/Mora</td>
+          </tr>
+        </tbody>
+        <tfoot>
+          <tr>
+            <td>2021</td>
+            <td>InterShibuya/Feid</td>
+          </tr>
+        </tfoot>
+      </table>
+    </div>
+    <div class="lista hobbies">
+      <h4>Hobbies</h4>
+      <ul>
+        <li>Jugar Videojuegos</li>
+        <li>Esuchar Musica</li>
+        <li>Ver y Jugar Futbol</li>
+      </ul>
+    </div>
+    <a href="https://www.instagram.com/nacho.jpg_/" target="_blank"
+      >Instagram</a
+    >
+    <div class="encuesta">
+      <h2>Por favor, contesta esta breve encuesta</h2>
+      <form>
+        <label for="email">Email:</label>
+        <!--Este pudo ser el type=text, pero segun tengo entendido, poner email es buena practica-->
+        <input type="email" id="email" />
+        <br /><br />
+        <label for="siCorreo">Si, por favor enviame montones de correos</label>
+        <input type="radio" id="siCorreo" />
+        <br />
+        <label for="noCorreo">No por favor, no me mandes ningun correo</label>
+        <input type="radio" id="noCorreo" />
+        <br /><br />
+      </form>
+      <h4>¿Como supiste de nosotros?</h4>
+      <form>
+        <input type="checkbox" id="fb" />
+        <label for="fb">Facebook</label>
+        <br />
+        <input type="checkbox" id="periodico" />
+        <label for="periodico">El periodico</label>
+        <br />
+        <input type="checkbox" id="contacto" />
+        <label for="contacto">Un contacto</label>
+        <br />
+        <br />
+        <input type="submit" />
+      </form>
+    </div>
+  </body>
+</html>
